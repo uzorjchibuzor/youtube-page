@@ -2,8 +2,7 @@ body {
   box-sizing: border-box;
 }
 
-
-.nav-bar{
+.nav-bar {
   width: 95%;
   margin: 0 auto;
 }
@@ -12,34 +11,56 @@ header {
   margin-top: 1%;
 }
 
-
 i {
   color: grey;
   font-size: 24px;
- 
 }
 
 .logo {
-  width: 8%;
+  width: 40%;
   vertical-align: top;
   margin-left: 3%;
 }
 
 .user {
-    width: 2%;
-    vertical-align: top;
+  width: 10%;
+  vertical-align: top;
 }
 
-.header-left{
-	width: 20%;
-	display: inline;
+.header-left {
+  width: 18%;
+  display: inline-block;
 }
 
-.header-center{
-	width: 60%;
-	display: inline;
+.header-center {
+  width: 58%;
+  display: inline-block;
 }
-.header-left{
-	width: 20%;
-	display: inline;
+.header-right {
+  width: 18%;
+  display: inline-block;
+  text-align: right;
+}
+
+
+.header-right i, .header-right img  {
+  margin: 3px;
+}
+
+
+
+.search-field {
+  width: 89%;
+  height: 30px;
+}
+
+button i {
+    
+    height: 30px;   
+}
+
+button {
+  width: 9%;
+  margin: 0 auto;
+  
 }
