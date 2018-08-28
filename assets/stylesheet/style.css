@@ -1,7 +1,26 @@
-.nav-bar{
-
+body {
+  box-sizing: border-box;
 }
 
-.fa-bars{
-	opacity: .7;
+
+.nav-bar{
+  width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  margin-top: 1%;
+}
+
+
+i {
+  color: grey;
+  font-size: 24px;
+ 
+}
+
+.logo {
+  width: 8%;
+  vertical-align: top;
+  margin-left: 3%;
 }
