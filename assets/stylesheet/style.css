@@ -79,3 +79,26 @@ button {
 .right-icons{
   margin-left: 2%;
 }
+
+main {
+  width: 100%;
+  margin: 2% 8%;
+}
+
+
+content {
+  width: 60%;
+  
+}
+
+content, aside {
+  display: inline-block;
+}
+
+iframe {
+ 
+  top:0;
+  left:0;
+  width:100%;
+
+} 
