@@ -9,6 +9,8 @@ body {
 
 header {
   margin-top: 1%;
+  box-shadow: 0 1px 15px 1px rgba(69,65,78,.08);
+  padding: 1% 0%;
 }
 
 i {
@@ -37,7 +39,7 @@ i {
   display: inline-block;
 }
 .header-right {
-  width: 18%;
+  width: 23%;
   display: inline-block;
   text-align: right;
 }
@@ -45,13 +47,18 @@ i {
 
 .header-right i, .header-right img  {
   margin: 3px;
+  margin-left: 19px;
 }
 
 
 
 .search-field {
   width: 89%;
-  height: 30px;
+  height: 29px;
+  border-bottom-left-radius: .3em;
+  border-top-left-radius: .3em;
+  border: .5px solid #80808063;
+  padding-left: 9px;
 }
 
 button i {
@@ -62,5 +69,13 @@ button i {
 button {
   width: 9%;
   margin: 0 auto;
+  margin-left: -5px;
+  border-bottom-right-radius: .3em;
+  border-top-right-radius: .3em;
+  border: .5px solid #80808063;
+  padding-bottom: 2px;
   
+}
+.right-icons{
+  margin-left: 2%;
 }
