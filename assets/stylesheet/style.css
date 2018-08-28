@@ -126,7 +126,17 @@ iframe {
 }
 
 .videoBoxes{
-  width: 100%;
-  height: 200px;
-  background: grey;
+   height: 104px;
 }
+
+.clear-float {
+  clear: both;
+}
+
+hr {
+  color: blue;
+}
+
+
+
+
