@@ -24,3 +24,22 @@ i {
   vertical-align: top;
   margin-left: 3%;
 }
+
+.user {
+    width: 2%;
+    vertical-align: top;
+}
+
+.header-left{
+	width: 20%;
+	display: inline;
+}
+
+.header-center{
+	width: 60%;
+	display: inline;
+}
+.header-left{
+	width: 20%;
+	display: inline;
+}
