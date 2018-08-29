@@ -61,12 +61,12 @@ i {
   padding-left: 9px;
 }
 
-button i {
-    
-    height: 30px;   
+.search-button i {
+
+    height: 30px;
 }
 
-button {
+.search-button {
   width: 9%;
   margin: 0 auto;
   margin-left: -5px;
@@ -74,7 +74,7 @@ button {
   border-top-right-radius: .3em;
   border: .5px solid #80808063;
   padding-bottom: 2px;
-  
+
 }
 .right-icons{
   margin-left: 2%;
@@ -89,7 +89,7 @@ content {
   width: 60%;
   margin-right: 2%;
   float: left;
-  
+
 }
 
 aside{
@@ -101,12 +101,12 @@ content, aside {
 }
 
 iframe {
- 
+
   top:0;
   left:0;
   width:100%;
 
-} 
+}
 
 .topPlay{
   margin-top: 0px;
@@ -155,6 +155,33 @@ p i{
   padding-bottom: 9px;
 }
 
+.descTitle {
+  width: 86%;
+  display: inline-block;
+}
+
+.descTitle p {
+  display: inline-block;
+}
+
+.descTitle img {
+  width: 7%;
+}
 
 
 
+.descTitle button {
+  float: right;
+  background: red;
+}
+
+.author-avatar {
+  width: 9%;
+  display: inline-block;
+    margin-right: 1%;
+}
+
+.author-avatar img {
+  width: 100%;
+
+}
