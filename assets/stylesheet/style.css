@@ -62,8 +62,8 @@ i {
 }
 
 .search-button i {
-
-    height: 30px;
+  font-size: 16px;
+  height: 18px;
 }
 
 .search-button {
@@ -73,7 +73,7 @@ i {
   border-bottom-right-radius: .3em;
   border-top-right-radius: .3em;
   border: .5px solid #80808063;
-  padding-bottom: 2px;
+  padding: 1%;
 
 }
 .right-icons{
@@ -269,4 +269,8 @@ margin-top: 20px;
 .fa-caret-down:before {
   content: "\f0d7";
   margin-left: -130%;
+}
+
+button:focus{
+outline: none;
 }
