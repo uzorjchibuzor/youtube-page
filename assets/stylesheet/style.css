@@ -134,7 +134,25 @@ iframe {
 }
 
 hr {
-  color: blue;
+  border-width: thin;
+    border-color: #8080801c;
+}
+
+.rightComments{
+  float: right;
+}
+.comments{
+  font-size: 13px;
+    color: grey;
+}
+p i{
+  font-size: 17px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+.likesDislikes{
+  border-bottom: 2px solid grey;
+  padding-bottom: 9px;
 }
 
 
