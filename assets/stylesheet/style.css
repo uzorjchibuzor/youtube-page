@@ -243,7 +243,30 @@ margin-top: 20px;
 
 .small-comments{
   margin-top: 0%;
+  font-weight: 700;
 }
+
+.small-comments span {
+  opacity: 0.6;
+  cursor: pointer;
+  font-weight: lighter;
+  margin-left: 2%;
+}
+
+.small-comments span:hover {
+  opacity: 1;
+}
+
+
 .reply{
   margin-left: 2%;
+}
+
+.view-more {
+  font-weight: 700;
+}
+
+.fa-caret-down:before {
+  content: "\f0d7";
+  margin-left: -130%;
 }
