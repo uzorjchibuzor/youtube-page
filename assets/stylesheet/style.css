@@ -156,7 +156,7 @@ p i{
 }
 
 .descTitle {
-  width: 86%;
+  width: 90%;
   display: inline-block;
   
 }
@@ -188,8 +188,9 @@ p i{
 
 .descTitle button {
 
-    background: #F00;
-    padding: 2%;
+  width: 151px;
+  background: #F00;
+  padding: 7%;
     border: none;
     color: #fff;
     font-weight: 700;
@@ -207,6 +208,7 @@ p i{
   float: left;
 }
 
+
 .author-avatar img {
   width: 100%;
 
@@ -214,4 +216,34 @@ p i{
 
 .videoDescription {
 margin-top: 20px;
+}
+
+.show-more{
+  color: grey;
+  font-size: 12px;
+}
+
+.comments-avatar {
+  width: 8%;
+  display: inline-block;
+  margin-right: 1%;
+  float: left;
+}
+.comments-avatar img {
+  width: 100%;
+
+}
+.comment-field{
+  margin-top: 1%;
+    margin-left: 2%;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #8080807d;
+}
+
+.small-comments{
+  margin-top: 0%;
+}
+.reply{
+  margin-left: 2%;
 }
