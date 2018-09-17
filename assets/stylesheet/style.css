@@ -135,9 +135,80 @@ iframe {
     font-family: 'Roboto', sans-serif;
 }
 
-.videoBoxes{
-   height: 104px;
+.video-boxes{
+  height: 104px;
+  width: 100%;
+  margin-top: 5px;
+  display: inline-block;
+  margin-bottom: 5px;
 }
+.video-boxes  img {
+   width: 100%;    
+}
+
+.side-image-div {
+  display: inline-block;
+  width: 40%;
+  float: left;
+  margin: 0;
+
+}
+
+.side-image-description{
+  display: inline-block;
+  margin: 0;
+  padding-left: 10px;
+  width: 57%;
+  
+ 
+}
+
+
+
+p.video-title {
+  
+  margin: 0 0 4px 0;
+  display: -webkit-box;
+  max-height: 3.2rem;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+  -webkit-line-clamp: 2;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  margin-bottom: 0;
+}
+
+p.video-source, p.views, p.new {
+    color: #c1c1c1;
+    max-width: 100%;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-transform: none;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2px 0 0 0;
+}
+
+p.new {
+  background: #e4e5e6;
+  display: inline-block;
+  padding: 2px;
+  color: #333;
+}
+
+.fa-check-circle {
+  color: #c1c1c1;
+  margin-left: 5px;;
+}
+
+
 
 .clear-float {
   clear: both;
