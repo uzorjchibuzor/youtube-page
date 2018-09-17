@@ -143,7 +143,8 @@ iframe {
   margin-bottom: 5px;
 }
 .video-boxes  img {
-   width: 100%;    
+   width: 100%;  
+   cursor: pointer;  
 }
 
 .side-image-div {
@@ -179,6 +180,7 @@ p.video-title {
   font-weight: 600;
   line-height: 19px;
   margin-bottom: 0;
+  cursor: pointer;
 }
 
 p.video-source, p.views, p.new {
@@ -194,6 +196,7 @@ p.video-source, p.views, p.new {
     flex-direction: row;
     align-items: center;
     margin: 2px 0 0 0;
+    cursor: pointer;
 }
 
 p.new {
