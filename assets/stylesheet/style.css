@@ -111,24 +111,20 @@ aside{
 }
 
 iframe {
-
-  top:0;
-  left:0;
   width:100%;
-
 }
 
-.topPlay{
+.top-play{
   margin-top: 0px;
 }
 .fa-toggle-on{
   color: blue;
 }
 
-.upNext{
+.up-next{
  float: left;
 }
-.autoPlay{
+.auto-play{
   float: right;
   color: hsl(0, 0%, 53.3%);
 
@@ -155,19 +151,16 @@ iframe {
 
 }
 
-.side-image-description{
+.side-image-description {
   display: inline-block;
   margin: 0;
   padding-left: 10px;
   width: 57%;
-  
- 
 }
 
 
 
 p.video-title {
-  
   margin: 0 0 4px 0;
   display: -webkit-box;
   max-height: 3.2rem;
@@ -222,7 +215,7 @@ hr {
     border-color: #8080801c;
 }
 
-.rightComments{
+.right-comments{
   float: right;
 }
 .comments{
@@ -234,12 +227,12 @@ p i{
   margin-left: 15px;
   margin-right: 5px;
 }
-.likesDislikes{
+.likes-dislikes{
   border-bottom: 2px solid grey;
   padding-bottom: 9px;
 }
 
-.descTitle {
+.desc-title {
   width: 90%;
   display: inline-block;
   
@@ -247,12 +240,12 @@ p i{
 
 
 
-.descTitle img {
+.desc-title img {
   width: 7%;
 }
 
 
-.descTitle .by-line {
+.desc-title .by-line {
   display: inline-block;
   float: left;
 }
@@ -263,14 +256,14 @@ p i{
   font-size: 13px;
 }
 
-.descTitle .subscribe-button{
+.desc-title .subscribe-button{
   display: inline-block;
   float:right;
 
 }
 
 
-.descTitle button {
+.desc-title button {
 
   width: 151px;
   background: #F00;
@@ -279,7 +272,7 @@ p i{
     color: #fff;
     font-weight: 700;
 }
-.descTitle button span{
+.desc-title button span{
   font-weight: 500;
   opacity: .8;
   margin-left: 5px;
@@ -298,7 +291,7 @@ p i{
 
 }
 
-.videoDescription {
+.video-description {
 margin-top: 20px;
 }
 
